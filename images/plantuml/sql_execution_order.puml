@@ -1,0 +1,13 @@
+@startuml
+:FROM and JOIN;
+:WHERE;
+:GROUP BY;
+:HAVING;
+:SELECT;
+note left
+window functions execute here
+end note
+:ORDER BY;
+:LIMIT;
+@enduml
+

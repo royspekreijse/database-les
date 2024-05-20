@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="FullJoinWithNullCheck.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.79375"
+     inkscape:cx="396.22047"
+     inkscape:cy="560.62992"
+     inkscape:window-width="956"
+     inkscape:window-height="1029"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:none;fill-opacity:0.5;stroke:#000000;stroke-width:0.264583"
+       id="path846"
+       cx="41.573566"
+       cy="96.814453"
+       rx="27.708982"
+       ry="17.461588" />
+    <ellipse
+       style="fill:none;fill-opacity:0.5;stroke:#000000;stroke-width:0.264583"
+       id="ellipse1030"
+       cx="72.410805"
+       cy="96.964195"
+       rx="27.708982"
+       ry="17.461588" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="18.03125"
+       y="99.694008"
+       id="text9989"><tspan
+         sodipodi:role="line"
+         id="tspan9987"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="18.03125"
+         y="99.694008">Tabel 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="72.240891"
+       y="99.757812"
+       id="text14379"><tspan
+         sodipodi:role="line"
+         id="tspan14377"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="72.240891"
+         y="99.757812">Tabel 2</tspan></text>
+    <path
+       id="ellipse21052"
+       style="fill:#008000;fill-opacity:0.5;stroke:#000000;stroke-width:0.264583"
+       d="M 41.573689,79.352771 A 27.708981,17.461588 0 0 0 13.864786,96.814241 27.708981,17.461588 0 0 0 41.573689,114.27622 27.708981,17.461588 0 0 0 56.811002,111.38648 27.708981,17.461588 0 0 1 44.701663,96.964101 27.708981,17.461588 0 0 1 57.182556,82.388251 27.708981,17.461588 0 0 0 41.573689,79.352771 Z m 15.608867,3.03548 a 27.708981,17.461588 0 0 1 12.100036,14.42599 27.708981,17.461588 0 0 1 -12.47159,14.572239 27.708981,17.461588 0 0 0 15.599563,3.03909 27.708981,17.461588 0 0 0 27.709425,-17.461469 27.708981,17.461588 0 0 0 -27.709425,-17.46147 27.708981,17.461588 0 0 0 -15.228009,2.88562 z" />
+    <ellipse
+       style="fill:none;fill-opacity:0.5;stroke:#000000;stroke-width:0.264583"
+       id="ellipse21075"
+       cx="41.573566"
+       cy="96.814453"
+       rx="27.708982"
+       ry="17.461588" />
+    <ellipse
+       style="fill:none;fill-opacity:0.5;stroke:#000000;stroke-width:0.264583"
+       id="ellipse21077"
+       cx="72.410805"
+       cy="96.964195"
+       rx="27.708982"
+       ry="17.461588" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="18.03125"
+       y="99.694008"
+       id="text21081"><tspan
+         sodipodi:role="line"
+         id="tspan21079"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="18.03125"
+         y="99.694008">Tabel 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="72.240891"
+       y="99.757812"
+       id="text21085"><tspan
+         sodipodi:role="line"
+         id="tspan21083"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="72.240891"
+         y="99.757812">Tabel 2</tspan></text>
+  </g>
+</svg>

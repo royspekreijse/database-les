@@ -112,6 +112,7 @@ const Plugin = () => {
 	 */
 	function createMarkdownSlide( content, options ) {
 
+    console.log('content', content);
 		options = getSlidifyOptions( options );
 
 		const notesMatch = content.split( new RegExp( options.notesSeparator, 'mgi' ) );

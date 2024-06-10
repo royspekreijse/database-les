@@ -94,7 +94,7 @@ WHERE *Voorwaarde*
 
 ---
 
-## Voorbeeld filteren
+## Voorbeeld van filteren
 
 ```SQL
 SELECT Id, Voornaam, Achternaam

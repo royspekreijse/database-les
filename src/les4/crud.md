@@ -108,4 +108,55 @@ WHERE Id = 1;
 
 Open: https://35.sslprotected.nl/phpmyadmin/?db=spekreijse_eu_les3_gebruiker_1
 
-Vul de tabel van de create database opdracht
+Vul de tabel van de create database opdracht:
+
+- Vul de studenten tabel met 3 studenten <!-- .element: class="fragment" -->
+- Geef alle 3 studenten een beoordeling <!-- .element: class="fragment" -->
+- Maak een query die de studenten en hun beoordelingen toont <!-- .element: class="fragment" -->
+
+---
+
+## Oplossing opdracht 1
+```sql
+INSERT INTO Student
+(StudentID, Voornaam, Achternaam, Geboortedatum) 
+VALUES 
+(1, 'Stacey','Moon','1976-09-16'),
+(2, 'Jane','Smith','1998-12-01'),
+(3, 'Ben','Wilcox','1998-01-02');
+```
+
+---
+## Oplossing 1 B
+```sql
+INSERT INTO Beoorderling
+(BeoordeelingID, StudentID, VakID, Cijfer) 
+VALUES 
+(1, 2, 1, 7),
+(2, 1, 1, 9),
+(3, 3, 1, 5);
+
+```
+
+---
+
+## Oplossing 1 C
+```sql
+SELECT s.*, b.* 
+  FROM Student s 
+  INNER JOIN Beoorderling b 
+    ON b.StudentID = s.StudentID;
+```
+
+---
+## Opdracht 2
+
+- Verander het cijfer van één van de studenten <!-- .element: class="fragment" -->
+- Verwijder één van de studenten <!-- .element: class="fragment" -->
+
+----
+
+## Oplossing 2 A
+```sql
+
+

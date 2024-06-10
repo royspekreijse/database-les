@@ -37,10 +37,10 @@ USE school;
 
 ## Welke datatypes zijn er?
 
-- Dat hangt af van het Database Management System (DBMS)<!-- .element: class="fragment" -->
-- Numerieke data types: INT, TINYINT, BIGINT, FLOAT, REAL<!-- .element: class="fragment" -->
-- Datum en Tijd data types: DATE, TIME, DATETIME<!-- .element: class="fragment" -->
-- Character en String data types: CHAR, VARCHAR, TEXT<!-- .element: class="fragment" -->
+- Dat hangt af van het Database Management System (DBMS) <!-- .element: class="fragment" -->
+- Numerieke data types: INT, TINYINT, BIGINT, FLOAT, REAL <!-- .element: class="fragment" -->
+- Datum en Tijd data types: DATE, TIME, DATETIME <!-- .element: class="fragment" -->
+- Character en String data types: CHAR, VARCHAR, TEXT <!-- .element: class="fragment" -->
 
 ---
 
@@ -130,7 +130,6 @@ CREATE TABLE Student (
         StudentID
     )
 );
-
 ```
 
 ---
@@ -158,7 +157,6 @@ CREATE TABLE Beoorderling (
     PRIMARY KEY (
         BeoordeelingID
     ),
-   FOREIGN KEY(StudentID) REFERENCES Student (StudentID)
+   FOREIGN KEY(StudentID) REFERENCES Student(StudentID)
 );
-
 ```

@@ -370,3 +370,59 @@ Om deze tabel om te zetten naar 3NF, kun je het volgende doen:
 - **Vaardigheid:** Management
 
 ---
+
+---
+
+## Oplossing
+
+### Tabel: Medewerker
+
+| MedewerkerID | Naam    | AfdelingID |
+| ------------ | ------- | ---------- |
+| 1            | Alice   | 1          |
+| 2            | Bob     | 2          |
+| 3            | Charlie | 1          |
+
+---
+
+## Afdeling
+
+| AfdelingID | Afdeling | Afdelingslocatie |
+| ---------- | -------- | ---------------- |
+| 1          | HR       | New York         |
+| 2          | IT       | San Francisco    |
+
+---
+
+### Tabel: Project
+
+| ProjectNaam   | ProjectLocatie |
+| ------------- | -------------- |
+| Project Alpha | Boston         |
+| Project Beta  | San Francisco  |
+| Project Gamma | Chicago        |
+| Project Delta | Boston         |
+
+---
+
+### Tabel: MedewerkerProject
+
+| MedewerkerID | ProjectNaam   |
+| ------------ | ------------- |
+| 1            | Project Alpha |
+| 2            | Project Beta  |
+| 3            | Project Gamma |
+| 1            | Project Beta  |
+| 2            | Project Delta |
+| 3            | Project Alpha |
+
+---
+
+### Tabel: MederwerkerVaardigheid
+
+| MedewerkerID | Vaardigheid  |
+| ------------ | ------------ |
+| 1            | Excel        |
+| 2            | JavaScript   |
+| 3            | Communicatie |
+| 3            | Management   |
